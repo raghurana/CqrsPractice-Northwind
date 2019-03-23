@@ -1,11 +1,11 @@
 ﻿namespace CqrsPractice.WebApi.Controllers
 {
-    public partial class ApiRoutes
+    public class ApiRoutes
     {
-        public const string VersionOneAlias = "api";
+        private const string VersionOneAlias = "api";
 
-        public const string ControllerPath = "/[controller]";
+        private const string ControllerPath = "/[controller]";
 
-        public const string DefaultControllerRoute = VersionOneAlias + ControllerPath;
+        public const string HealthCheckV1 = VersionOneAlias + "/health" + ControllerPath;
     }
 }

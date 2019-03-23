@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CqrsPractice.WebApi.Controllers
+namespace CqrsPractice.WebApi.Controllers.HealthCheck
 {
     [ApiController]
-    [Route(ApiRoutes.DefaultControllerRoute)]
+    [Route(ApiRoutes.HealthCheckV1)]
     public class PingController 
     {
         [HttpGet]

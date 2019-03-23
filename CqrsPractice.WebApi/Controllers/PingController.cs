@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CqrsPractice.WebApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route(ApiRoutes.DefaultControllerRoute)]
     public class PingController 
     {
         [HttpGet]

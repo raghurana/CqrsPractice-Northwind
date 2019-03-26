@@ -7,15 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsPractice.WebApi", "Cqrs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPractice.Application", "CqrsPractice.Application\CqrsPractice.Application.csproj", "{AEB055F0-520B-4B76-9570-B060A575DD1F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{22127B42-3A86-46B5-85B5-F4E0DC393F6D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Presentation", "01.Presentation", "{22127B42-3A86-46B5-85B5-F4E0DC393F6D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. ApiServices", "02. ApiServices", "{DDA9A411-2685-4028-8FB2-89BA30F25B25}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.ApiServices", "02.ApiServices", "{DDA9A411-2685-4028-8FB2-89BA30F25B25}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. BusinessLogic", "03. BusinessLogic", "{78C1D79D-9FE3-478B-AB82-87C3F04C8746}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Core", "03.Core", "{78C1D79D-9FE3-478B-AB82-87C3F04C8746}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPractice.Domain", "CqrsPractice.Domain\CqrsPractice.Domain.csproj", "{B05297C9-FF9B-42DC-A213-B1355781A1CD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Infrastructure", "04. Infrastructure", "{D40874E0-7551-42E1-8147-2044C36768D3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Infrastructure", "04.Infrastructure", "{D40874E0-7551-42E1-8147-2044C36768D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPractice.Infrastructure", "CqrsPractice.Infrastructure\CqrsPractice.Infrastructure.csproj", "{BE69C7D9-3CF4-4BBB-9C6A-08799518F928}"
 EndProject

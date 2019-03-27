@@ -7,5 +7,7 @@
         private const string ControllerPath = "/[controller]";
 
         public const string HealthCheckV1 = VersionOneAlias + "/health" + ControllerPath;
+
+        public const string CustomersV1 = VersionOneAlias + ControllerPath;
     }
 }

@@ -18,14 +18,15 @@ namespace CqrsPractice.Application.Customers.Queries.CustomerList
 
         public Task<CustomerListModel> Handle(CustomerListQuery request, CancellationToken cancellationToken)
         {
-            var databaseCustomer = new Customer {CustomerId = "1", CompanyName = "Kichoo Productions"};
+            var dbCustomers = new List<Customer>
+            {
+                new Customer {CustomerId = "1", CompanyName = "Kichoo Productions"},
+                new Customer {CustomerId = "2", CompanyName = "Geezo Productions"}
+            };
 
             return Task.FromResult(new CustomerListModel
             {
-                Customers = new List<CustomerListItemModel>
-                {
-                    mapper.Map<CustomerListItemModel>(databaseCustomer)
-                }
+                Customers = mapper.Map<List<CustomerListItemModel>>(dbCustomers)
             });
         }
     }
